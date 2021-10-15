@@ -1,5 +1,9 @@
 # QBasic
 
+![image](https://user-images.githubusercontent.com/38451588/137484183-1ea08e0e-d65e-424b-adfe-42315e5baebe.png)
+
+
+
 COLOR
  Screen modes 4, 12, and 13 only let you set the foreground color. Screen modes 7-10 let you set a background color
  
