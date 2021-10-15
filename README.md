@@ -1,6 +1,6 @@
 # QBasic
 
-![image](https://user-images.githubusercontent.com/38451588/137484183-1ea08e0e-d65e-424b-adfe-42315e5baebe.png)
+![image](https://user-images.githubusercontent.com/38451588/137484411-bf69741e-c8b1-4255-a665-90efb9443d84.png)
 
 
 
