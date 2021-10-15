@@ -4,7 +4,7 @@ COLOR
  Screen modes 4, 12, and 13 only let you set the foreground color. Screen modes 7-10 let you set a background color
  
  
- 
+ ````
  SUB ColourPrint(t$, fg%, bg%)
   ' t$ = printing text
   ' fg% = foreground colour
@@ -21,7 +21,7 @@ COLOR
   PUT (x1%, y1%), h%, XOR
   ERASE h%
 END SUB 
-
+````
 
 
 You can change the RGB values of a colour with out. This may look difficult, but it is actually very easy. Just use:
