@@ -24,6 +24,10 @@ END SUB
 ````
 
 
+https://stackoverflow.com/questions/37944159/qbasic-highlighted-menu-seriously
+
+
+
 You can change the RGB values of a colour with out. This may look difficult, but it is actually very easy. Just use:
 OUT &H3C8, colour (use 0 for background colour)
 OUT &H3C9, Red(0-63)
