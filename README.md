@@ -5,6 +5,7 @@ COLOR
  
  
  ````
+ ' THIS ONLY WORKS IN SCREEN 12!!
  SUB ColourPrint(t$, fg%, bg%)
   ' t$ = printing text
   ' fg% = foreground colour
