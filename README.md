@@ -56,3 +56,28 @@ OUT &H3C9, 0
 OUT &H3C9, 0
 ````
 There are also some routines around that you can use to print anywhere on the screen(so not only on the places you can reach with LOCATE), and without a background colour. I believe that these are for screen 13 (not sure), but I though I'd mention it anyway. They are also good when you want to do colour effects on the text.
+
+
+![image](https://user-images.githubusercontent.com/38451588/137624180-88811027-5b69-4cb3-b192-bc2155ddf772.png)
+
+Screen 12
+'Out &H3C8, 0
+'Out &H3C9, 63
+'Out &H3C9, 63
+'Out &H3C9, 63
+
+
+
+
+Out &H3C8, 15
+Out &H3C9, 0
+Out &H3C9, 0
+Out &H3C9, 0
+
+Color 5
+For i = 1 To 50
+    Print "°";
+Next i
+
+Color 1, 7 'f, b
+Print "hi"
