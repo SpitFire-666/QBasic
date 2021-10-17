@@ -9,23 +9,22 @@ COLOR
  
  
  ````
- ' THIS ONLY WORKS IN SCREEN 12!!
- SUB ColourPrint(t$, fg%, bg%)
-  ' t$ = printing text
-  ' fg% = foreground colour
-  ' bg% = background colour
-  DIM h%(1 + 32 * LEN(t$))
-  x1% = 8 * (POS(0) - 1)
-  y1% = 16 * (CSRLIN - 1)
-  x2% = x1% + 8 * LEN(t$) - 1
-  y2% = y1% + 15
-  LINE (x1%, y1%)-(x2%, y2%), bg%, BF
-  GET (x1%, y1%)-(x2%, y2%), h%
-  COLOR fg% XOR bg%
-  PRINT t$;
-  PUT (x1%, y1%), h%, XOR
-  ERASE h%
-END SUB 
+ fg% = 0
+bg% = 14
+Screen 12
+t$ = "hello"
+Dim h%(1 + 32 * Len(t$))
+x1% = 8 * (Pos(0) - 1)
+y1% = 16 * (CsrLin - 1)
+x2% = x1% + 8 * Len(t$) + 10 '- 1
+y2% = y1% + 15
+Line (x1%, y1%)-(x2%, y2%), bg%, BF
+Get (x1%, y1%)-(x2%, y2%), h%()
+Color fg% Xor bg%
+Print t$;
+Put (x1%, y1%), h%(), Xor
+Erase h%
+
 ````
 
 
@@ -51,7 +50,7 @@ OUT &H3C9, 63
 ````
 To make color 15 black:
 ````
-OUT &H3C8, 0
+OUT &H3C8, 15
 OUT &H3C9, 0
 OUT &H3C9, 0
 OUT &H3C9, 0
