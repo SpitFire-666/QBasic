@@ -27,6 +27,9 @@ Erase h%
 
 ````
 
+ For I = 1 to 25 Print string$(80, 176); Next
+
+
 
 https://stackoverflow.com/questions/37944159/qbasic-highlighted-menu-seriously
 
