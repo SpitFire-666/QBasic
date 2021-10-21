@@ -84,3 +84,7 @@ Next i
 
 Color 1, 7 'f, b
 Print "hi"
+
+
+
+https://en.wikipedia.org/wiki/Code_page_437#Character_set
