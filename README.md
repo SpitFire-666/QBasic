@@ -4,7 +4,7 @@
 
 
 
-COLOR
+# COLOR
  Screen modes 4, 12, and 13 only let you set the foreground color. Screen modes 7-10 let you set a background color
  
  
@@ -85,6 +85,37 @@ Next i
 Color 1, 7 'f, b
 Print "hi"
 
+
+# Colour bars demo
+
+````
+Screen 13
+For a = 0 To 319: Line (a, 0)-(a, 199), a: Next
+````
+
+# Progress cursor
+
+
+
+
+````
+Dim alphabet(10) As String
+alphabet(0) = "|"
+alphabet(1) = "/"
+alphabet(2) = "-"
+alphabet(3) = "\"
+
+x = 0
+Do
+    Cls
+    Print alphabet(x)
+    x = x + 1
+    If x = 4 Then x = 0
+    For a = 1 To 10000000
+    Next a
+    '        Sleep 1
+Loop
+````
 
 
 https://en.wikipedia.org/wiki/Code_page_437#Character_set
