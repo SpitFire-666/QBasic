@@ -2,7 +2,11 @@
 
 ![image](https://user-images.githubusercontent.com/38451588/137484411-bf69741e-c8b1-4255-a665-90efb9443d84.png)
 
+# Delay
 
+````
+FOR A = 1 to 1000: Next A ' roughly 500ms on a 16MHz system
+````
 
 # COLOR
  Screen modes 4, 12, and 13 only let you set the foreground color. Screen modes 7-10 let you set a background color
