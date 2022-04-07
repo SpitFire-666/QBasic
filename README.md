@@ -8,6 +8,20 @@
 FOR A = 1 to 1000: Next A ' roughly 500ms on a 16MHz system
 ````
 
+# Loop until any key
+
+````
+Loop Until InKey$ <> ""
+````
+
+# print all characters
+
+````
+For i = 0 To 255
+    Print Chr$(i);
+Next i
+````
+
 # COLOR
  Screen modes 4, 12, and 13 only let you set the foreground color. Screen modes 7-10 let you set a background color
  
