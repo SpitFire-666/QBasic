@@ -6,7 +6,11 @@
 
 ![](https://github.com/SpitFire-666/QBasic/blob/main/snow.bas.gif?raw=true)
 
+- Torus
 
+https://github.com/InsaneJetman/classic-qbasic/blob/QB_4.5/TORUS.BAS
+
+https://github.com/InsaneJetman/classic-qbasic
 
 
 # Other Stuff
