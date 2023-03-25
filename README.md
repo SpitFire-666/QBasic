@@ -16,6 +16,9 @@ https://github.com/InsaneJetman/classic-qbasic
 # Other Stuff
 
 
+## Screen 12
+80x40
+
 
 ![image](https://user-images.githubusercontent.com/38451588/137484411-bf69741e-c8b1-4255-a665-90efb9443d84.png)
 
